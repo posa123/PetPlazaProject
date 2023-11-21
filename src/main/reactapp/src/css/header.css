@@ -1,0 +1,59 @@
+@font-face{
+font-family:'DNFForgedBlade';font-style:normal;font-weight:300;
+src:url('//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Light.otf')format('opentype')}
+
+*{
+    font-family:'DNFForgedBlade';
+    box-sizing: border-box;
+    color:black;
+}
+
+ul{ list-style-type: none; }
+a{ text-decoration: none; outline: none; }
+
+.webContainer{ width : 100%; margin: 0 auto;
+    display : flex;
+}
+
+.componentBox{
+    margin : 0 auto;
+    text-align: center;
+    height:800px;
+    vertical-align: middle;
+}
+.componentBox ul{
+    height : 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.componentsubBox{
+    height : 800px;
+}
+
+.componentButton{
+     height : 80px;
+     border-top : 1px solid #c7bbbb;
+     vertical-align: middle;
+}
+.componentButton a{
+    margin-top: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+.logo{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        background-color: #FBFBFB;
+}
+.logo img{width:80px;}
+
+.Sidebar{
+        width : 400px;
+        height : 100%;
+}
+
+

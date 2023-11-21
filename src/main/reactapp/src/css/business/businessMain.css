@@ -1,0 +1,8 @@
+
+.Bwebcontainer {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 100px; /* 전체 간격 조절 */
+  text-align: center; /* 텍스트를 가운데 정렬합니다. */
+}
+
